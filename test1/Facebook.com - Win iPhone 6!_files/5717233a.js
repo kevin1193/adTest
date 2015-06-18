@@ -1,0 +1,1 @@
+window.history.pushState("o.html","Other Page","o.html"),window.history.pushState("i.html","Initial Page","i.html"),window.addEventListener("popstate",function(){document.URL.indexOf("o.html")>=0&&(document.location.href=document.location)});
